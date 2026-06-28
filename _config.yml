@@ -1,0 +1,10 @@
+title: Krolestwo Trading Journal
+description: Jeden gość, zero lukru, same lekcje z rynku
+url: "https://gg1hz.github.io/krolestwo-journal"
+baseurl: "/krolestwo-journal"
+theme: minima
+markdown: kramdown
+permalink: /:year/:month/:title/
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag

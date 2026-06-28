@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<div class="home">
+  <h1>Krolestwo Trading Journal</h1>
+  <p>{{ site.description }}</p>
+  
+  {% for post in site.posts %}
+  <article>
+    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+    <time>{{ post.date | date: "%d.%m.%Y" }}</time>
+    {{ post.excerpt }}
+    <p><a href="{{ post.url | relative_url }}">Czytaj dalej...</a></p>
+  </article>
+  {% endfor %}
+</div>
