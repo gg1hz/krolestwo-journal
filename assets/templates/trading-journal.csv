@@ -1,0 +1,2 @@
+trade_id,data,para,kierunek,entry,sl,tp,wysokosc,niska,exit,pnl_r,outcome,emocje_przed,emocje_w_trakcie,emocje_po,snr_poziom,dzienny_trend,sesja,notatki
+T001,2026-06-28,XAUUSD,long,2320.00,2315.00,2330.00,2325.50,2318.00,2322.00,-2R,loss,pewny,zbyt_ufny,frustracja,2318,up,NY,silna euforia przed - usunalem SL
