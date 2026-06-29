@@ -13,7 +13,7 @@ Protokol, ktorego uzywam, ma cztery etapy. Kazdy jest tak prosty, jak to tylko m
 
 ### Przed sesja
 
-Sprawdzam overnight. Zamykam know-how. Gdzie zamknal US session? Czy sa luki? Newsy?
+Sprawdzam overnight. Zamykam pozycje przed sesja. Gdzie zamknal US session? Czy sa luki? Newsy?
 
 Okreslam trzy hipotezy na dzisiejsza sesje. Nie dziesiec. Trzy. Reszta to szum.
 
