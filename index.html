@@ -2,16 +2,15 @@
 layout: default
 ---
 
-<div class="home">
-  <h1>Krolestwo Trading Journal</h1>
-  <p>{{ site.description }}</p>
-  
+<ul class="post-list">
   {% for post in site.posts %}
-  <article>
+  <li class="post-item">
+    <p class="post-meta">{{ post.date | date: "%d.%m.%Y" }}</p>
     <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-    <time>{{ post.date | date: "%d.%m.%Y" }}</time>
-    {{ post.excerpt }}
-    <p><a href="{{ post.url | relative_url }}">Czytaj dalej...</a></p>
-  </article>
+    <div class="post-excerpt">
+      {{ post.excerpt | strip_html | truncate: 200 }}
+    </div>
+    <a class="read-more" href="{{ post.url | relative_url }}">czytaj dalej →</a>
+  </li>
   {% endfor %}
-</div>
+</ul>

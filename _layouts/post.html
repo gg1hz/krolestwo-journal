@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | strip_html }} — {{ site.title }}</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/style.scss' | relative_url }}">
+  {% seo %}
+</head>
+<body>
+  <div class="money-ticker">NYSE: 51,876.11  DOW: 51,876.11  GOLD: $4,047.62  S&P 500: 7,354.02</div>
+
+  <div class="wrapper">
+    <header class="site-header">
+      <div class="separator">✦ ✦ ✦</div>
+      <h1 class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+      <div class="separator">✦ ✦ ✦</div>
+    </header>
+
+    <article class="post">
+      <header class="post-header">
+        <h1 class="post-title">{{ page.title }}</h1>
+        <p class="post-meta">{{ page.date | date: "%d.%m.%Y" }}</p>
+      </header>
+      <div class="post-content">
+        {{ content }}
+      </div>
+    </article>
+
+    <footer class="site-footer">
+      <p>Krolestwo — notatki z rynku. Zero porad inwestycyjnych.</p>
+      <p style="margin-top:10px; letter-spacing:1px;">— GG</p>
+    </footer>
+  </div>
+</body>
+</html>
