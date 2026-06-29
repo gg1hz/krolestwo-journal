@@ -175,6 +175,66 @@ body {
   letter-spacing: 2px;
 }
 
+/* Navigation */
+.site-nav {
+  margin: 10px 0;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.site-nav a {
+  color: #6b6b4a;
+  text-decoration: none;
+  margin: 0 12px;
+  transition: color 0.2s;
+}
+
+.site-nav a:hover {
+  color: #c9a84c;
+}
+
+/* Button style for produkty page */
+.btn {
+  display: inline-block;
+  background: #c9a84c;
+  color: #0f0f0a !important;
+  padding: 12px 24px;
+  text-decoration: none;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 20px 0;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+.btn:hover {
+  background: #e8d5a3;
+}
+
+/* Tables */
+.post-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 15px;
+}
+
+.post-content th {
+  background: #1a1a12;
+  color: #c9a84c;
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #2a2a1a;
+}
+
+.post-content td {
+  padding: 8px 10px;
+  border: 1px solid #2a2a1a;
+  color: #d4c9a8;
+}
+
 /* Decorative separator - little bar */
 .separator {
   text-align: center;
