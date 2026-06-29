@@ -5,12 +5,14 @@ layout: default
 <ul class="post-list">
   {% for post in site.posts %}
   <li class="post-item">
-    <p class="post-meta">{{ post.date | date: "%d.%m.%Y" }}</p>
+    <p class="post-meta">{{ post.date | date: "%d %m %Y" }}</p>
     <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+    {% if post.excerpt %}
     <div class="post-excerpt">
-      {{ post.excerpt | strip_html | truncate: 200 }}
+      {{ post.excerpt | strip_html | truncate: 160 }}
     </div>
-    <a class="read-more" href="{{ post.url | relative_url }}">czytaj dalej →</a>
+    {% endif %}
+    <a class="read-more" href="{{ post.url | relative_url }}">Czytaj</a>
   </li>
   {% endfor %}
 </ul>

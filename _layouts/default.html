@@ -4,22 +4,18 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title %}{{ page.title }} — {% endif %}{{ site.title }}</title>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/assets/css/style.scss' | relative_url }}">
+  {% seo %}
 </head>
 <body>
-  <div class="money-ticker">NYSE: 51,876.11  DOW: 51,876.11  GOLD: $4,047.62  S&P 500: 7,354.02</div>
-  
   <div class="wrapper">
     <header class="site-header">
-      <div class="separator">✦ ✦ ✦</div>
       <h1 class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
       <nav class="site-nav">
-        <a href="{{ '/' | relative_url }}">Blog</a>
+        <a href="{{ '/' | relative_url }}">Wpisy</a>
         <a href="{{ '/zasoby/' | relative_url }}">Zasoby</a>
         <a href="{{ '/produkty/' | relative_url }}">Produkty</a>
       </nav>
-      <div class="separator">✦ ✦ ✦</div>
     </header>
 
     <main>
@@ -27,8 +23,7 @@
     </main>
 
     <footer class="site-footer">
-      <p>Krolestwo — notatki z rynku. Zero porad inwestycyjnych.</p>
-      <p style="margin-top:10px; letter-spacing:1px;">— GG</p>
+      Notatki z rynku. Bez porad inwestycyjnych.
     </footer>
   </div>
 </body>

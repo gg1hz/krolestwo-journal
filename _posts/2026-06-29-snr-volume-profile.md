@@ -1,46 +1,18 @@
 ---
 layout: post
-title: "SNR - jedna rzecz ktora zmienila wszystko"
+title: "SNR"
 date: 2026-06-29
-categories: [analiza, system]
+categories: [analiza]
 ---
 
-Z wszystkich narzedzi ktorych uzywalem, SNR (Support & Resistance z Volume Profile) to jedna rzecz, ktora wrocila mi wiare w rynki.
+Z wszystkich narzedzi, ktorych probowalem, SNR oparty na volume profile jest jedynym, ktory faktycznie zmienil moje wyniki. Nie dlatego, ze jest szczegolnie skomplikowany. Dlatego, ze usuwa szum.
 
-Nie dlatego ze jest magiczny. Dlatego ze usuwa szum.
+Standardowe wsparcie i opor rysuje kazdy. Problem polega na tym, ze te linie sa subiektywne. Dwaj traderzy na tym samym wykresie moga miec dwie calkowicie rozne mapy.
 
-### Jak dziala standardowe S/R
+SNR opiera sie na stezeniu obrotu. Na tym, gdzie faktycznie byly pieniadze, a nie na tym, gdzie wedlug nas byl "wazny poziom."
 
-Wszyscy rysujemy poziomy. Patrzymy gdzie rynek sie odwrocil. Rysujemy linie.
+Point of Control to poziom z najwiekszym wolumenem. To tam instytucje sa najbardziej zainteresowane. Value Area to zakres, w ktorym zrealizowano 70 procent obrotu. Granice Value Area (VAH i VAL) pokazuja, gdzie konczy sie "fair price."
 
-Problem: te linia sa subiektywne. Dwoch traderow na tym samym wykresie ma dwie rozne mapy.
+W praktyce wyglada to tak: wyszukuje Vpoc z ostatnich dwudziestu sesji na goldzie. Jesli cena testuje ten poziom, patrze na reakcje. Rejection z potwierdzeniem wolumenu to wejscie. Acceptance to pas. Nie oceniam. Patrze na dane.
 
-### Jak dziala SNR
-
-SNR opiera sie na **stezenie obrotu** (Vpoc, Value Area). To gdzie faktycznie byly pieniadze, nie gdzie wedlug nas byl "wazny poziom".
-
-- **Poc (Point of Control)** - poziom z najwiekszym obrotem. To tam instytucje sa najbardziej zainteresowane.
-- **VAH/Val** - granice Value Area (68-70% obrotu). Tam konczy sie "fair price".
-- **Acceptance vs Rejection** - czy cena przeszla przez poziom czy sie odbila.
-
-### Jak to wyglada w praktyce
-
-Gold (XAUUSD) na dziennym:
-
-1. Widze gdzie jest Vpoc ostatnich 20 sesji
-2. Cena testuje ten poziom
-3. SNR (kombinacja S/R + volume) mowi: rejection = entry, acceptance = pas
-
-Zaden inny setup nie dal mi tylu dobrych trade'y co ten. Nie dlatego ze jest perfekcyjny. Dlatego ze ma **zasady ktorych sie trzymam**.
-
-### Checklista SNR
-
-- [ ] Czy cena testuje znany poziom SNR?
-- [ ] Czy volume potwierdza rejection?
-- [ ] Czy time frame ma znaczenie (nie handluje 1-minutowych SNR)?
-- [ ] Czy dzienny trend jest zgodny?
-- [ ] Czy R:R minimum 1:2.5?
-
-Jesli wszystkie odpowiedzi brzmia TAK - wchodze. Jesli nie - czekam.
-
-*To nie jest porada inwestycyjna.*
+Zaden inny setup nie dal mi tyle dobrych transakcji co ten. Nie dlatego, ze jest perfekcyjny. Dlatego, ze ma zasady, ktorych sie trzymam.

@@ -1,10 +1,9 @@
 title: Krolestwo
 url: "https://gg1hz.github.io/krolestwo-journal"
 baseurl: "/krolestwo-journal"
-theme: minima
 markdown: kramdown
 encoding: utf-8
-permalink: /:year/:month/:title/
+permalink: /:title/
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
